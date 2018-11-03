@@ -31,10 +31,10 @@ const Tabs = (props) => {
     ]
 
     return(
-        <div>
+        <div className='tabs_container'>
             {
                 items.map((item, key) => (
-                    <div key={key} >
+                    <div  className='tab' key={key} >
                         <Link to={item.link}>
                             {item.text}
                         </Link>
