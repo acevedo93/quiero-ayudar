@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*============================
+            Header
+==============================*/
+ .header_container {
+     width: 100%;
+     display:flex;
+     justify-content: space-around;
+     background: #13acf3;
+     font-size: 2em;
+}
+/*============================
+            Footer
+==============================*/
+/*============================
+            tabs
+==============================*/
+.tabs_container {
+    width: 100%;
+    
+    display:flex;
+    justify-content:  space-around;
+    height: 40%;   
+    background: #5dcf59;
+    font-size: 1.5em;
+}
+/*============================
+            Header
+==============================*/

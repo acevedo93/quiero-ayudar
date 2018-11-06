@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const Tabs = (props) => {
 
-    const items =[
+    const setTabs =[
         {
             type:'tabItem',
             icon:'',
@@ -33,10 +33,10 @@ const Tabs = (props) => {
     return(
         <div className='tabs_container'>
             {
-                items.map((item, key) => (
+                setTabs.map((tab, key) => (
                     <div  className='tab' key={key} >
-                        <Link to={item.link}>
-                            {item.text}
+                        <Link to={tab.link}>
+                            {tab.text}
                         </Link>
                     </div>
                 ))
