@@ -21,9 +21,7 @@ class Header extends Component {
                     <div className='open_nav'
                     onClick= {() => this.setState({showNav:true})}
                     >
-                        <FontAwesomeIcon
-                            icon="check-square" 
-                        />
+                        burguer
                     </div>
                     <div>Q_ayudar</div>
                     <div>login</div>

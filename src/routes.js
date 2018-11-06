@@ -1,6 +1,6 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import Layout from './HOC/Layout'
+import Layout from './hoc/Layout'
 import Cuando from './components/screens/Cuando'
 import Donde from './components/screens/Donde'
 import EnQue from './components/screens/EnQue'
