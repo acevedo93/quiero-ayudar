@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import Nav from './sidenav'
 
 class Header extends Component {
@@ -16,12 +17,13 @@ class Header extends Component {
         return (
             <div>
                 <header className='header_container'>
-
+                    
                     <div className='open_nav'
                     onClick= {() => this.setState({showNav:true})}
                     >
-                    
-                        pestaña
+                        <FontAwesomeIcon
+                            icon="check-square" 
+                        />
                     </div>
                     <div>Q_ayudar</div>
                     <div>login</div>
