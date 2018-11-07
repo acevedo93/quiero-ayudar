@@ -4,7 +4,7 @@ class Enque extends Component {
     render() {
         return (
             <div>
-                enque
+               en que categoria con nombre de actividad
             </div>
         );
     }

@@ -33,3 +33,25 @@ body {
 /*============================
             Header
 ==============================*/
+
+/*============================
+            Map
+==============================*/
+
+.google-map {
+    height: 80vh;
+    width: 100%;
+}
+.target{
+    position:absolute;
+    font-size: 2em;
+    
+    width : 100px;
+    height: 70px;
+    border-top: 3px solid #13acf3;
+    border-left:  3px solid #13acf3;
+    
+    color: #f2f3f8;
+
+}
+

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee,faBars } from '@fortawesome/free-solid-svg-icons'
 import Nav from './sidenav'
 
 class Header extends Component {
@@ -21,7 +22,9 @@ class Header extends Component {
                     <div className='open_nav'
                     onClick= {() => this.setState({showNav:true})}
                     >
-                        burguer
+                        <FontAwesomeIcon
+                            icon={faBars}
+                        />
                     </div>
                     <div>Q_ayudar</div>
                     <div>login</div>

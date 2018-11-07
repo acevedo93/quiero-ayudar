@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-
+import Map from './Map'
 class Donde extends Component {
+
+    state = {
+
+    }
+    renderMap = () => (
+        <Map/>
+    )
     render() {
         return (
-            <div>
-                donde
+            <div className="google-map">
+                {this.renderMap()}
             </div>
         );
     }

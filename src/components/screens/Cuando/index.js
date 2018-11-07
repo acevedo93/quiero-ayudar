@@ -4,7 +4,7 @@ class Cuando extends Component {
     render() {
         return (
             <div>
-                cuando
+                Lista de eventos por proximidad y horario
             </div>
         );
     }
