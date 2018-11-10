@@ -1,0 +1,108 @@
+{
+    "fundaciones":[
+        {
+            "id": 32132132,
+            "enabled":"", // boolean
+            "createdAt":"",
+            "updatedAt":"",
+            "name":"Fundacion X",
+            "network":{
+                //"social":
+                //facebook instagra
+            },
+            "sedes":[
+                {
+                    "id":"432143143124312",
+                    "fundacion_id": "54542542354",
+                    "codigo_postal":"asd1234",
+                    "horarios": "decidir",
+                    "contactos":"", // array de telefonos
+                    "sede_central":"true",
+                    "Location":{
+                        "localidad":"",
+                        "calle":"olivos 21343",
+                        "lat":-34.580222,
+                        "lng":-58.436085
+                    }
+                }
+            ],
+            "directores":[
+                {
+
+                }
+            ],
+            "mision":"",
+            "vision":"" ,  
+            "website": "www.fundacionX.com",
+            "description": "descripcion",
+            "phone":"12343242",
+            "images":[
+                {
+                    "photo":"http://photo",
+                    "alter":"photo description",
+                    "createdAt":"",//fecha de creacion
+                    "updatedAt":""
+                }
+            ],
+            "email": "fundacionX@quieroayudar.com",
+            "pass":"#4334$%$$%&%$#REF",
+            "tipoEntidadID":"43214321431",// references a tipos_Entidad,
+            "Categoria_humanaID": {
+                "re_bebes": true
+                //"re_primerainfancia"  //false,
+                //"re_ninios"  //false,
+                //"re_adolescentes"  //false,
+                //"re_jovenes"  //false,
+                //"re_adultos"  //false,
+                //"re_terceraedad"  //false,
+            },
+            "categorias":""
+        }
+    ],
+    "voluntarios/donantes":[
+        {
+            "id":"fdsfdafreqreqreqreqr",
+            "name":"Condorito macri",
+            "email":"Condorito@quieroayudar.com",
+            "pass":"encrypt",
+            "photo":"http://fdsafdasf",
+            "direccion":"condo 23123",
+            "network":{
+                // si exite login con plataformas log
+                //"social":
+                //facebook instagra
+            },
+            "participaciones":[
+                {
+                    "fundacion_id":"321321343243",
+                    "name":"fundacion X",
+                    "fecha_participacion":"timestamp",
+                    "tipo_de_evento": [
+                        {
+                            "evento_id":123233321
+                        }
+                    ]
+                }
+            ],
+            "description":"",
+            "categorias de interes":[
+                "ropa","comida","juguetes"
+            ],
+            "Location":{
+                "localidad":"",
+                "calle":"olivos 21343",
+                "lat":-34.580222,
+                "lng":-58.436085
+            }
+        }
+    ],
+    "Categorias_humana": [
+    ],
+    "tipos_Entidad":[
+    ],
+    "categorias":[
+    ],
+    
+    "eventos":[
+    ],
+}

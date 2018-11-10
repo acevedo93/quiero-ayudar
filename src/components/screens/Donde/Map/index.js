@@ -24,9 +24,6 @@ class Map extends Component {
                 defaultZoom= {zoom}
             >
                 <Target lat={-34.580222} lng={-58.436085} text={'Fundacion SI'}/>
-                <Target lat={-34.580222} lng={-58.436085} text={'Fundacion SI'}/>
-                <Target lat={-34.580222} lng={-58.436085} text={'Fundacion SI'}/>
-                <Target lat={-34.580222} lng={-58.436085} text={'Fundacion SI'}/>
             </GoogleMapReact>
         )
     }
