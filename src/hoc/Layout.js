@@ -8,14 +8,17 @@ const Layout = ({children}) => (
     <div>
         
         <Fragment >
-                <Header/> 
+            <Header/> 
         </Fragment>
+
         <Fragment>
             <Tabs/>
         </Fragment>
+
         <div className='select_Tab'>
             {children}
         </div>
+        
         <Fragment>
             {/* footer */}
         </Fragment>

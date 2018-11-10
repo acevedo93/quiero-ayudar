@@ -20,10 +20,10 @@ class Header extends Component {
                 <header className='header_container'>
                     
                     <div className='open_nav'
-                    onClick= {() => this.setState({showNav:true})}
+                        onClick= { () => this.setState({ showNav:true }) }
                     >
                         <FontAwesomeIcon
-                            icon={faBars}
+                            icon={ faBars }
                         />
                     </div>
                     <div>Q_ayudar</div>
@@ -31,9 +31,9 @@ class Header extends Component {
                     
                 </header>
                 <Nav
-                    showNav = {this.state.showNav}
-                    onHideNav = {()=> this.onHideNav()}
-                    />
+                    showNav = { this.state.showNav }
+                    onHideNav = { ()=> this.onHideNav() }
+                />
             </div>
         );
     }

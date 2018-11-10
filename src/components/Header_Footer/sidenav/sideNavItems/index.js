@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const SideNavItems = () => {
 
@@ -15,11 +15,11 @@ const SideNavItems = () => {
 
     const element = (item,key) => (
         
-         <div key = {key} className={item.type}>
-            <Link to = {item.link}>
-                 {item.text}
-             </Link>
-         </div>
+        <div key = { key } className={ item.type }>
+            <Link to = { item.link }>
+                {item.text}
+            </Link>
+        </div>
     )
 
     const showItems = () => (

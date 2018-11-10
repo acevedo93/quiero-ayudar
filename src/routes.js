@@ -5,8 +5,6 @@ import Cuando from './components/screens/Cuando'
 import Donde from './components/screens/Donde'
 import EnQue from './components/screens/EnQue'
 
-
-
 const Routes = () => {
 
     const setRoutes = [
