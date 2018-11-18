@@ -104,5 +104,31 @@
     ],
     
     "eventos":[
-    ],
+        {
+            "id": "123243242132",
+            "titulo": "Eventox",
+            "Descripcion":" Descripcion evento x",
+            "sedeId": "12321321321",
+            "onUpdate": "timestamp",
+            "onDelete": "timestamp",
+            "fecha_desde":"timestamp",
+            "fecha_hasta":"timestamp",
+            "dias_lunes": "Bool",
+            "dias_martes": "Bool",
+            "dias_miercoles": "Bool",
+            "dias_jueves": "Bool",
+            "dias_viernes": "Bool",
+            "dias_sabado": "Bool",
+            "dias_domingo": "Bool",
+            "tipoHorarioId": "Bool", 
+            "turnos_maniana": "bool",
+            "turnos_tarde": "bool",
+            "tiempo_unavez": "bool",
+            "tiempo_ocasional": "bool",
+            "tiempo_mediotiempo": "bool",
+            "tiempo_tiempocompleto": "bool",
+            "presencia_virtual": "bool",
+            "presencia_fisica": "bool"
+        }
+    ]
 }
